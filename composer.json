@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "TinyCome\\Silvia": "src/"
+            "TinyCome\\Silvia\\": "src/"
         }
     },
     "autoload-dev": {
