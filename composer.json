@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Silvia\\": "src/"
+            "Silvia\\Hello\\": "src/"
         }
     },
     "autoload-dev": {
