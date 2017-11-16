@@ -1,5 +1,5 @@
 <?php
-namespace Silvia\Hello;
+namespace TinyCome\Silvia;
 
 class Hello
 {
