@@ -1,28 +1,32 @@
 {
-    "name": "tinyCome/silvia",
-    "description": "silvia hello world",
-    "keywords": [
-        "silvia",
-        "hello"
-    ],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "silvia",
-            "email": "714021046@qq.com"
-        }
-    ],
-    "require": {
-        "php":">=5.5.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "TinyCome\\Silvia\\": "src/"
-        }
-    },
-    "autoload-dev": {
+  "name": "tinyCome/silvia",
+  "description": "silvia hello world",
+  "keywords": [
+    "silvia",
+    "hello"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "silvia",
+      "email": "714021046@qq.com"
     }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      //代码由原来的tinyCome/siliva-->tinyCome/siliva/src
+      "TinyCome\\Silvia\\": "src/"
+    },
+    "classmap": [
+      "lib/"
+    ]
+  },
+  "autoload-dev": {
+  }
 }
