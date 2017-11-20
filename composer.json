@@ -20,7 +20,6 @@
   },
   "autoload": {
     "psr-4": {
-      //代码由原来的tinyCome/siliva-->tinyCome/siliva/src
       "TinyCome\\Silvia\\": "src/"
     },
     "classmap": [
